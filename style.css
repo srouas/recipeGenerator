@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap");
+
+body {
+  background-image: url("HD-wallpaper-merry-go-ocean-peace-sky-one-piece-cool-ship-blue.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+#logo {
+  position: relative;
+  bottom: 100px;
+}
+
+#recipe-name {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 25px;
+}
+
+#recipe-info {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+#recipe-display {
+  width: 200px;
+}
+
+/* ol {
+    width: 200px;
+    height: 
+    display: flex;
+    justify-content: center;
+} */
+
+ol > li {
+  list-style-type: none;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.ol {
+  list-style-type: none;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+#hidden {
+  display: none;
+}
